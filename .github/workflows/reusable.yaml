@@ -29,4 +29,4 @@ jobs:
           ls
       - name: Set result output
         id: set-result
-        run: echo "step-result=success" >> $GITHUB_ENV
+        run: echo "step-result=success" >> $GITHUB_OUTPUT
